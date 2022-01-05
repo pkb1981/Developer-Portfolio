@@ -5,7 +5,9 @@ h1{font-size: 50px;
 }
 h2:{font-size: 40px;
 }
-.orange-color{color:orange;}
+.orange-color{
+    color:orange;
+}
 .flexible-container{
     display: flex;
     margin-bottom: 150px;
@@ -15,6 +17,19 @@ h2:{font-size: 40px;
     width:50%;
     padding-left: 2%;
     }
+    .half-width img
+{
+    width:80%;
+}
+.link-button
+{
+text-decoration: none;
+background-image:linear-gradient(orange, tomato);
+color: white;
+font-weight: 700;
+padding: 10px 40px;
+border-radius:5px;
+}
     .experience-item{
         box-shadow:10px 10px 40px gray ;
         width: 40%;
@@ -22,7 +37,7 @@ h2:{font-size: 40px;
         padding-left: 20px;;
         margin-right: 5%;
         border-radius:  10px;
-        
+       
     }
     .experience-area{
         background-image: url(images/exp-bg.png);
@@ -40,19 +55,8 @@ h2:{font-size: 40px;
             border-image:linear-gradient(purple,tomato);
             border-image-slice: 1;  
           }
-.half-width img
-{
-    width:80%;
-}
-.link-button
-{
-text-decoration: none;
-background-image:linear-gradient(orange, tomato);
-color: white;
-font-weight: 700;
-padding: 10px 40px;
-border-radius:5px;
-}
+
+
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
